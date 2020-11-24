@@ -1,34 +1,44 @@
 .container {
-    max-width: 1200px;
-    margin: 0 auto;
+	max-width: vw(1200);
+	margin: 0 auto;
 }
-.col-12 {
-    width: 100%;
-  }
-  .col-9 {
-    width: 75%;
-  }
-  .col-8 {
-    width: 66.66%;
-  }
-  .col-7 {
-    width: 58.88%;
-  }
-  .col-6 {
-    width: 50%;
-  }
-  .col-5 {
-    width: 41.12%;
-  }
-  .col-4 {
-    width: 33.33%;
-  }
-  .col-3 {
-    width: 25%;
-  }
-  .col-2 {
-    width: 16.66%;
-  }
-  .col-1 {
-    width: 8.88%;
-  }
+
+body {
+	margin: 0;
+	font-family: "Proxima Nova", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+	margin: 0;
+}
+
+ul {
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+}
+
+img {
+	max-width: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+a,
+span {
+	display: inline-block;
+}
+
+button {
+	outline: none;
+	border: none;
+	cursor: pointer;
+}
