@@ -43,3 +43,11 @@
     width: 25px;
     height: 25px;
 }
+.footer__col {
+
+}
+.cv__manager {
+    position: absolute;
+    margin-top: 600px;
+    margin-left: 250px;
+}
