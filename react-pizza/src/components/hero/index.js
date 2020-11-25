@@ -1,4 +1,3 @@
-  
 import React from 'react';
 import hero1 from '../../assets/wink.webp';
 import hero2 from '../../assets/delivery.webp';
