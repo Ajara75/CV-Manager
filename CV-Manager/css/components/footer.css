@@ -43,11 +43,44 @@
     width: 25px;
     height: 25px;
 }
-.footer__col {
-
-}
 .cv__manager {
     position: absolute;
     margin-top: 600px;
     margin-left: 250px;
+}
+.col__text {
+    width: 627px;
+    height: 45px;
+    font-size: 16px;
+    line-height: 26px;
+    color: #606168;
+    font-weight: 400;
+    font-family: "Montserrat";
+}
+.twitter__img,
+.slack__img {
+    margin-top: 92px;
+    margin-left: 30px;
+}
+.footer__col {
+    margin-left: 250px;
+    justify-content: space-around;
+}
+.col__title {
+    font-size: 40px;
+letter-spacing: 0px;
+line-height: 55px;
+color: #222222;
+font-weight: 600;
+font-family: "Poppins", sans-serif;
+}
+.col__menu {
+    width: 627px;
+height: 45px;
+font-size: 16px;
+line-height: 26px;
+color: #606168;
+font-weight: 400;
+font-family: "Montserrat", sans-serif;
+
 }
