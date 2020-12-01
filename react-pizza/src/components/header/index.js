@@ -1,7 +1,13 @@
-import React from 'react';
+import React, { useState } from 'react';
 import logo from '../../assets/logo.svg';
 
 const Header = () => {
+  const [classes, setClasses] = useState(true);
+
+  const classTogler = () => {
+    setClasses(classes ? false : true);
+  };
+
   return (
     <header className='header'>
       <div className='container'>
@@ -53,3 +59,4 @@ const Header = () => {
 };
 
 export default Header;
+
