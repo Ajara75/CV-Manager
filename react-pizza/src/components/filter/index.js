@@ -2,20 +2,21 @@ import React, { useState } from 'react';
 import { filterNames } from './const.js';
 
 function Filter() {
-  const [names] = useState(filterNames);
+  const [input, setInput] = useState('');
+  const [names, setNames] = useState(filterNames);
   const [elIndex, setElIndex] = useState(0);
 
-  // const handleChange = (event) => {
-  //   setInput(event.target.value);
-  // };
+  const handleChange = (event) => {
+    setInput(event.target.value);
+  };
 
-  // const handleEnter = (event) => {
-  //   setInput(event.target.value);
-  //   if (event.key === 'Enter') {
-  //     setNames([...names, event.target.value]);
-  //     setInput('');
-  //   }
-  // };
+  const handleEnter = (event) => {
+    setInput(event.target.value);
+    if (event.key === 'Enter') {
+      setNames([...names, event.target.value]);
+      setInput('');
+    }
+  };
 
   const handleClick = (index) => {
     setElIndex(index);
