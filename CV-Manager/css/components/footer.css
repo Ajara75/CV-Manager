@@ -64,7 +64,7 @@
 }
 .footer__col {
     margin-left: 250px;
-    justify-content: space-around;
+
 }
 .col__title {
     font-size: 40px;
@@ -75,8 +75,6 @@ font-weight: 600;
 font-family: "Poppins", sans-serif;
 }
 .col__menu {
-    width: 627px;
-height: 45px;
 font-size: 16px;
 line-height: 26px;
 color: #606168;
